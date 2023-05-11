@@ -1,0 +1,28 @@
+############################## Bienvenus sur notre interpréteur de programmes C #############################################
+#                                                                                                                           #
+# Notre programme d'interpreteur analyse des programmes écrits en langage C comportant les types d'instructions suivants:#
+#            - Affectations.                                                                                                #                          
+#            - Fonctions d'entrée et sortie (printf() et scanf()).                                                          #
+#            - Instructions conditionnelles (if then else) ou bien (if then ).                                              #
+#            - Instructions d'itération: boucle while & for                                                                     #
+#                                                                                                                           #
+#############################################################################################################################
+
+Important de prendre en compte les notes ci-après pour pouvoir exécuter notre programme !
+
+
+-Les noms des variables(IDF):  on a supposé que l'identifiant (nom de varibale)  est composé seulement de lettres majuscules ou miniscules 
+-PVIRG: est le séparateur des affectations 
+-PEGAL: est le symbole d'affecation 
+-On prend en considération les opérateurs de comparaison (<= , >=,==,<>,<,> ) on reconnait les symboles à plusieurs caractères lors de l'analyse syntaxique.
+-Les instructions conditionelles sont programmées avec une possibilité de comprendre ou  pas  le block 'else'.
+-Les conditions dans les instructions conditionnelles sont représentées  uniquement avec les opérateurs de comparaison . Ex: if (x>2) ou if (x<=y) ou bien if (x==4)
+-Quelques warnings apparaitrons à la compilation mais n'empêchent pas l'exécution du programme (c'est dû au module table_symboles pour avoir manipulé une variable globale qui est la table des symboles)
+-Après les if , while et for un point virgule est necéssaire.
+-Un else n'est pas forcément necéssaire dans un instruction conditionnelle.
+
+Exécution: (lancer les commandes suivantes sur la ligne de commandes)
+
+make clean 
+make
+./interpréteur <test_files/nom_de_programme_à_interpreter.txt> 

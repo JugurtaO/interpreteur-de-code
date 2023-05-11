@@ -1,0 +1,4 @@
+scanf(x);
+if(x <> 2) then {
+    printf(x);
+};

@@ -1,0 +1,9 @@
+message=39;
+printf(message);
+scanf(hello);
+scanf(time);
+scanf(N);
+printf(time);
+printf(N);
+
+

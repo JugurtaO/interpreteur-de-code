@@ -1,0 +1,11 @@
+x=5;
+x=x+2;
+z=9;
+y=x+2-z;
+if(x>z) then {y=z;} else{y=3;};
+i=0;
+while(i<x){
+    printf(i);
+    i=i+1;
+   
+};

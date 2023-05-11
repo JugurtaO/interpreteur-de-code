@@ -1,0 +1,10 @@
+scanf(x);
+x=x+2;
+y=x;
+x=y+1;
+z=y+2*x;
+z=z+1;
+printf(z);
+scanf(count);
+printf(count);
+addOne=count/2;

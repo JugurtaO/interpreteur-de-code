@@ -1,0 +1,12 @@
+i=0;
+while(i<=10){
+    printf(i);
+    i=i+1;
+    if(i<5) then{
+        scanf(y);
+        printf(y);
+        for(x=1;x<=i;x=x+1){
+            printf(x);
+        };
+    };
+};
