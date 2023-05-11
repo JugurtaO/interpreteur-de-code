@@ -1,5 +1,6 @@
-############################## Bienvenus sur notre interpréteur de programmes C #############################################
-#                                                                                                                           #
+# Bienvenus sur notre interpréteur de programmes C
+
+#############################################################################################################################                                                                                                                           #
 # Notre programme d'interpreteur analyse des programmes écrits en langage C comportant les types d'instructions suivants:#
 #            - Affectations.                                                                                                #                          
 #            - Fonctions d'entrée et sortie (printf() et scanf()).                                                          #
@@ -25,4 +26,4 @@ Exécution: (lancer les commandes suivantes sur la ligne de commandes)
 
 make clean 
 make
-./interpréteur <test_files/nom_de_programme_à_interpreter.txt> 
+./interpréteur <../test_files/nom_de_programme_à_interpreter.txt> 
